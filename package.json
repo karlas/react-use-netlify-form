@@ -1,0 +1,39 @@
+{
+  "name": "react-use-netlify-form",
+  "version": "0.1.0",
+  "description": "Submit data to Netlify forms asynchronously, without writing any form or redirecting to any success page",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "author": "Karlas",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karlas/react-use-netlify-form.git"
+  },
+  "homepage": "https://github.com/karlas/react-use-netlify-form",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && rollup -c"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.17.1",
+    "rollup-plugin-peer-deps-external": "^2.2.2"
+  }
+}
